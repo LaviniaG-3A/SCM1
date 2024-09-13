@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Segredos da Corte Mística</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo-0.jpeg" alt="floresta"> 
+            <p>Em um mundo dividido por uma muralha existem dois reinos...humanos e feéricos. No mundo mágico dos feéricos existe uma feiticeira chamada Amarantha, ela lança uma maldição que ameaça a paz entre os reinos e mantém os humanos em constante medo. um segredo...apenas um humano pode quebrar a maldição!</p>
+            <p>Você é um(a) jovem caçador(a) no qual sua família se encontra com fome. No meio da floresta caçando como todos os dias no inverno, você se depara com um lobo e uma corça...</p>
+            <h1>o lobo também quer a corça, qual  você irá matar?</h1>
+            <button class="btn-proximo" data-proximo="1">A Corça</button>
+            <button class="btn-proximo" data-proximo="2">A Corça e o Lobo</button>
+            <button class="btn-proximo" data-proximo="3">O Lobo</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo-1-2-3.jpeg" alt="besta"> 
+            <p> Você matou a corça e assustou o lobo, fazendo ele se tranformar em feérico e te raptar...</p>
+            <p>não existe a opção de continuar no mundo humano ou sua família será assassinada, agora você precisa decidir sua missão principal!</p>
+            <h1>Decisão de vivência</h1>
+            <button class="btn-proximo" data-proximo="4">Encontrar uma solução para a maldição.</button>
+            <button class="btn-proximo" data-proximo="5">Explorar o mundo feérico e interagir com os personagens.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo-1-2-3.jpeg" alt="besta">
+            <p>Você voltou para casa e alimentou sua família, porém uma besta invadiu sua moradia para te levar embora</p>
+            <p>Você matou o lobo feérico e não existe a opção de continuar no mundo humano ou sua família será assassinada, agora você precisa decidir sua missão principal!</p>
+            <h1>Decisão de vivência</h1>
+            <button class="btn-proximo" data-proximo="4">Encontrar uma solução para a maldição.</button>
+            <button class="btn-proximo" data-proximo="5">Explorar o mundo feérico e interagir com os personagens.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo-1-2-3.jpeg" alt="besta">
+            <p>Você voltou para casa e alimentou sua família, porém uma besta invadiu sua casa para te levar embora</p>
+            <p>Você matou o lobo feérico e não existe a opção de continuar no mundo humano ou sua família será assassinada, agora você precisa decidir sua missão principal!</p>
+            <h1>Decisão de vivência</h1>
+            <button class="btn-proximo" data-proximo="4">Encontrar uma solução para a maldição.</button>
+            <button class="btn-proximo" data-proximo="5">Explorar o mundo feérico e interagir com os personagens.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo-4-5.jpeg" alt="Amarantha">
+            <p>Você questiona o feérico que te raptou e descobre a razão de estar ali.</p>
+            <h1>Apenas um humano pode quebrar a maldição...</h1>
+            <p>Há muito tempo atrás uma feiticeira enviada por um reino distante pisou em terras feéricas, e sua presença ali não era atoa…
+                Amarantha a feiticeira, se aproximou dos Grão-senhores(líderes de cortes no mundo feérico) cada um possuindo seu poder único e essencial, acabaram rendendo as seduções da feiticeira e assim sendo roubado o poder de cada um.
+                Porém Amarantha tinha um objetivo pessoal a ser alcançado…</p>
+            <h1>Você está pronto para entender a maldição, jovem caçador(a)?</h1>
+            <button class="btn-proximo" data-proximo="6">Sim! com toda a certeza.</button>
+            <button class="btn-proximo" data-proximo="7">Não tenho certeza do que quero. </button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo-4-5.jpeg" alt="Amarantha">
+            <p>Você decide se aproximar da besta que te levou para o mundo feérico, descobrindo que ele é um Grão Senhor da corte primaveril.</p>
+            <h1>Apenas um humano pode quebrar a maldição...</h1>
+            <p>Há muito tempo atrás uma feiticeira enviada por um reino distante pisou em terras feéricas, e sua presença ali não era atoa… Amarantha a feiticeira, se aproximou dos Grão-senhores(líderes de cortes no mundo feérico) cada um possuindo seu poder único e essencial, acabaram rendendo as seduções da feiticeira e assim sendo roubado o poder de cada um. Porém Amarantha tinha um objetivo pessoal a ser alcançado…</p>
+            <h1>Você está pronto para entender a maldição, jovem caçador(a)?</h1>
+            <button class="btn-proximo" data-proximo="6">Sim! com toda a certeza.</button>
+            <button class="btn-proximo" data-proximo="7">Não tenho certeza do que quero.</button>
+
+        </div>
+
+
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo-6-7.jpg" alt="corte primaveril">
+            <p>jovem caçador(a) ingenuo… você nunca estará pronto para a verdade hahaha...Você está livre por enquanto, apenas para conhecer este mundo e outros feéricos.</p>
+            <p>Sua liberdade está limitada jovem caçador(a), mas tirando proveito do que lhe é permitido você descobre o nome deste feérico animal...Tamlin, Grão Senhor da corte primaveril. Suas opções neste mundo mágico estão rasas...</p>
+            <h1>Será que você irá se adaptar neste reino mágico?</h1>
+            <button class="btn-proximo" data-proximo="8">Não vou deixar esses feéricos me controlarem!</button>
+            <button class="btn-proximo" data-proximo="9">talvez este reino possa ser um recomeço para mim.</button>
+
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo-6-7.jpg" alt="corte primaveril">
+            <p>Você está livre por enquanto, apenas para conhecer este mundo e outros feéricos.</p>
+            <p>Sua liberdade está limitada jovem caçador(a), mas tirando proveito do que lhe é permitido você descobre o nome deste feérico animal...Tamlin, Grão Senhor da corte primaveril. Suas opções neste mundo mágico estão rasas...</p>
+            <h1>Será que você irá se adaptar neste reino mágico?</h1>
+            <button class="btn-proximo" data-proximo="8">Não vou deixar esses feéricos me controlarem!</button>
+            <button class="btn-proximo" data-proximo="9">talvez este reino possa ser um recomeço para mim.</button>
+
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo-8-9.jpg" alt="jardim">
+            <p>Você ficará preso em seu devido quarto por tal confronto...Após uns dias de “castigo" você consegue uma chance de conversar com tamlin.</p>
+            <p>Em uma tarde ensolarada na corte primaveril, você vai ao encontro de Tamlin nos jardins do casarão, jovem caçador(a) decide dizer:</p>
+            <h1>Tamlin, grande amigo ou inimigo?</h1>
+            <button class="btn-proximo" data-proximo="10">“Tamlin, quero te ajudar a acabar com essa maldição!”</button>
+            <button class="btn-proximo" data-proximo="11">“Você vai me contar o que é essa porcaria de maldição agora!!”</button>
+
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo-8-9.jpg" alt="jardim">
+            <p>Você tem aprendido muito sobre este mundo feérico, e tem simpatizado com Tamlin.</p>
+            <p>Em uma tarde ensolarada na corte primaveril, você vai ao encontro de Tamlin nos jardins do casarão, jovem caçador(a) decide dizer:</p>
+            <h1>Tamlin, grande amigo ou inimigo?</h1>
+            <button class="btn-proximo" data-proximo="10">“Tamlin, quero te ajudar a acabar com essa maldição!”</button>
+            <button class="btn-proximo" data-proximo="11">“Você vai me contar o que é essa porcaria de maldição agora!!”</button>
+
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo-10-11.jpg" alt="Tamlin">
+            <p>Tamlin então diz: “ jovem caçador(a), o motivo de toda essa maldição é por minha causa... 
+                Antes de Amarantha roubar nossos poderes ela era muito próxima de meu pai, de alguma forma ela se apaixonou por mim sem nem conversarmos, até que quando atingi a maior idade ela me ofereceu o convite para me juntar a ela, como amante.”</p>
+            <p>“Amarantha com seu ótimo temperamento não aceitou minha negação e logo após lançou a maldição como um castigo a minha pessoa e ao meu povo, roubando os poderes dos grão senhores e reinando neste lugar mágico. A única forma da maldição ser quebrada...é por um humano, e desconfio que você, jovem caçador(a), seja a pessoa que vai quebrar esta maldição!”</p>
+            <h1>Quebrador(a) da maldição ou não?</h1>
+            <button class="btn-proximo" data-proximo="12">Vamos quebrar essa maldição juntos, Tamlin.</button>
+            <button class="btn-proximo" data-proximo="13">Vou enfrentar essa batalha sozinho(a).</button>
+
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo-10-11.jpg" alt="Tamlin">
+            <p>Tamlin então diz: “ jovem caçador(a), o motivo de toda essa maldição é por minha causa... 
+                Antes de Amarantha roubar nossos poderes ela era muito próxima de meu pai, de alguma forma ela se apaixonou por mim sem nem conversarmos, até que quando atingi a maior idade ela me ofereceu o convite para me juntar a ela, como amante.”</p>
+            <p>“Amarantha com seu ótimo temperamento não aceitou minha negação e logo após lançou a maldição como um castigo a minha pessoa e ao meu povo, roubando os poderes dos grão senhores e reinando neste lugar mágico. A única forma da maldição ser quebrada...é por um humano, e desconfio que você, jovem caçador(a), seja a pessoa que vai quebrar esta maldição!”</p>
+            <h1>Quebrador(a) da maldição ou não?</h1>
+            <button class="btn-proximo" data-proximo="12">Vamos quebrar essa maldição juntos, Tamlin.</button>
+            <button class="btn-proximo" data-proximo="13">Vou enfrentar essa batalha sozinho(a).</button>
+
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="" alt="">
+            <p>em um passeio pela tarde no casarão de tamlin, você escuta uma gritaria começar e corre para a entrada do casarão, tamlin fora raptado pelos soldados de Amarantha...</p>
+            <p>Tamlin é mantido prisioneiro em um castelo sob uma maldição, e todo o reino está sofrendo com a sua ausência.</p>
+            <h1>Você deseja salvar Tamlin e o reino dos feéricos, jovem caçador(a)?</h1>.
+            <button class="btn-proximo" data-proximo="14">Estou disposto(a) a enfrentar qualquer perigo por eles.</button>
+            <button class="btn-proximo" data-proximo="15">não consigo fazer isso...sou apenas um(a) humano(a).</button>
+
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="" alt="">
+            <p>em um passeio pela tarde no casarão de tamlin, você escuta uma gritaria começar e corre para a entrada do casarão, tamlin fora raptado pelos soldados de Amarantha...</p>
+            <p>Tamlin é mantido prisioneiro em um castelo sob uma maldição, e todo o reino está sofrendo com a sua ausência.</p>
+            <h1>Você deseja salvar Tamlin e o reino dos feéricos, jovem caçador(a)?</h1>.
+            <button class="btn-proximo" data-proximo="14">Estou disposto(a) a enfrentar qualquer perigo por eles.</button>
+            <button class="btn-proximo" data-proximo="15">não consigo fazer isso...sou apenas um(a) humano(a).</button>
+
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="enario-passo-14.jpg" alt="castelo">
+            <p>Parabéns pela disposição jovem caçador(a)! Agora você enfrentará Amarantha e seus joguinhos, sobreviva!</p>
+            <p>Você foi guiado para o castelo da feiticeira, e agora você terá que passar por algum desafio...</p>
+            <h1>preparado(a) para o desafio?</h1>.
+            <button class="btn-proximo" data-proximo="16">Sim, não posso voltar atrás</button>
+            <button class="btn-proximo" data-proximo="17">Não posso dar continuidade nisso</button>
+
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Você decidiu não enfrentar Amarantha. Desistindo de resgatar Tamlin, o destino dele e do reino permanece indefinido. Amarantha continua a manter o controle, e a maldição permanece ativa, resultando em um estado contínuo de sofrimento e desespero para todos.</p>
+            <h1>Para jogar novamente, recarregue a página.</h1>
+            
+        </div>
+
+        
+            
+
+            <div class="passo" id="passo-16">
+            <img src="cenario-passo-16.jpg" alt="desafio">
+            <p> Amarantha passa um desafio, que é considerado o mais difícil de todos os tempos. Ele testa não apenas as suas habilidades físicas e mentais, mas também sua coragem e determinação. Esse desafio é decisivo para o destino de Tamlin e do reino.</p>
+            <h1>Você ainda pode desistir hahahaha...</h1>.
+            <button class="btn-proximo" data-proximo="18">posso morrer neste desafio, mas não vou desistir!</button>
+            <button class="btn-proximo" data-proximo="19">já estou me arrependendo disso tudo...</button>
+            </div>
+
+            <div class="passo" id="passo-17">
+            
+            <p>Você decidiu não enfrentar Amarantha. Sem tentar resgatar Tamlin, o destino dele e do reino permanece indefinido. Amarantha continua a manter o controle, e a maldição permanece ativa, resultando em um estado contínuo de sofrimento e desespero para todos. </p>
+            <h1>Para jogar novamente, recarregue a página.</h1>
+
+            </div>
+
+            <div class="passo" id="passo-18">
+                
+                <p> Você venceu o desafio, quebrando a maldição que aflige o reino e libertando Tamlin. Com a vitória, a paz é restaurada, O reino prospera e a influência de Amarantha é desfeita.</p>
+                <h1>Parabéns jovem caçador(a), seja feliz e viva em paz</h1>
+    
+                </div>
+
+                <div class="passo" id="passo-19">
+                    
+                    <p> Você falha no desafio, o que leva a consequências negativas severas. A maldição persiste, e o seu futuro e o de Tamlin se torna sombrio e incerto. A luta contra Amarantha continua e o reino permanece sob sua influência.</p>
+                    <h1>Você nos decepcionou jovem caçador(a)... se quiser outra chance recarregue a página</h1>
+        
+                    </div>
+    
+
+
+        
+            
+
+       
+
+
+
+
+
+    </main>
+
+        
+
+        
+
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
